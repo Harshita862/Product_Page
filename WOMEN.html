@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Women Footwear</title>
+    <link rel="stylesheet" href="css/styless.css">
+    <style>
+      .slider {
+        width: 1000px;
+        height: 500px;
+        background-color:rgb(246, 227, 230);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: rgb(246, 227, 230);
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 15px;
+        background-color: rgb(7, 8, 100);
+      }
+    </style>
+    <style>
+      /* width */
+::-webkit-scrollbar {
+width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:#c7e2ea ; 
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #96b3bb; 
+}
+  </style>
+  </head>
+  <body>
+    <h1 class="p1"><em>Women's Footwear Collection</em></h1>
+    <div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="https://clarks.gumlet.io/product/5059680325076/665/5059680325052_1_1615.webp" class="slide" width="500" height="300" />
+        <img src="https://clarks.gumlet.io/product/5059680739866/665/5059680739828_1_8882.webp" class="slide" width="500" height="300" />
+        <img src=" https://clarks.gumlet.io/product/5059680220883/665/5059680220821_1_1602.webp" class="slide" width="500" height="300" />
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+<hr>
+<table cellspacing="60">
+    <tr>
+<td><img src="https://www.eyefootwear.com/userfiles/product/image/400x225/330351564.jpg" width="200px"></td>
+<td><img src="https://www.eyefootwear.com/userfiles/product/image/400x225/1780992149.jpg"width=200px></td>
+<td><img src="https://image.peltzshoes.com/images/products/1_663405_ZM.jpg"width="200px"></td>
+<td><img src="https://i5.walmartimages.com/asr/4dfd4eb8-a302-48b2-a106-19b78d9b5ff1.87832264a90bf47e093dba58bfea86f5.jpeg" width="200px"></td>
+</tr>
+<tr>
+   <td><a href="Leather Sandal.html">Leather Sandal</a>
+<p>Rating:⭐⭐⭐⭐</p></td>
+    <td><a href="Leather Court Shoes.html">Women's HOGL Studio 80 Closed Pump Leather Court Shoes</a><p>Rating:⭐⭐⭐</p></td>
+    <td><a href="shoes.html">Comfort Shoes</a><p>Rating:⭐⭐⭐⭐⭐</p></td>
+    <td><a href="Fancy Sandal.html">Fancy Sandal</a><p>Rating:⭐⭐⭐</p></td>  
+</tr>
+<tr>
+<td><td><img src="https://i5.walmartimages.com/asr/984c3d8f-8dc5-4b8f-a08b-796c0600eac4_1.13f3b7d2457bac2b4719c92545dd57b9.jpeg"width="200px"></td></td>
+</tr>
+<tr>
+    <td></td>
+    <td><a href="Leather Boots.html">Leather Boots</a><p>Rating:⭐⭐⭐⭐⭐</p></td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+        
+        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            .row_style{
+                margin-top:10px;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <br><br><br><br>
+   
+        <div class="col-xs-6 col-xs-offset-3">
+        <div class ="panel panel-primary">
+            <div class="panel-heading">Login</div>
+                    
+                    <div class='text-warning'>
+                    <h6>
+                            Login to access
+                    </h6></div>
+                    <div class="panel-body">
+                        <form  method="get" action="login_script.php">
+                       
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required="true" >
+                                </div> 
+                          
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required="true" pattern=".{8,}" >
+                                </div> 
+                        <button type="submit">Proceed</button>
+                    </form>
+                  <br><br>
+                    <div class="panel-footer"><h6>Don't have an account?
+                            <a href='Register.html'>Register</a></h6></div>
+                
+                </div>
+            
+            </div>
+        
+    </div>
+           
+    <body>
+</html>
